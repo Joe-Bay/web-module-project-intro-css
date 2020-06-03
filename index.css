@@ -1,47 +1,63 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-    vertical-align: baseline;
-    max-width:100%
+html{
+	font-size:62.5%;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-HTML {
+body{
+	font-size:1.6rem;
 
+}
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+	border:1px solid gray;
+
+}
+nav a{
+	color:black;
+	margin: 0% 10% 0% 10%;
+	letter-spacing: 3px;
+	text-decoration:none;
+}
+#involedButton{
+	background:#FFCD69;
+}
+#learnButton{
+	background:#5ED3EB;
+}
+#planButton{
+	background:#FF764E;
+}
+.button{
+display:inline-block;
+background-color:maroon;
+padding: 1%;
+color:white;
+border-radius:10px;
+}
+h1{
+	display:inline-block;
+	width: 20%;
+
+}
+#topImageContainer img{
+	display:inline-block;
+	width:20%;
+	border-radius: 50%;
+	margin-left: 8%;
+	margin-top: 5%;
+
+}
+.sectionOne{
+	background: red;
+}
+.firstText{
+	width: 20%;
+	padding: 1%
+}
+header div{
+	display:inline-block;
+}
+#imageContainer{
+	margin-right:-10%;
 }
