@@ -1,11 +1,11 @@
 <!-- Link your CSS stylesheet -->
 <!-- Then, markup the content below with tags and attributes such that it can be styled in CSS-->
-<link href="https://fonts.google.com/specimen/Chelsea+Market" rel="stylesheet"> 
-<link href="https://fonts.google.com/specimen/Roboto+Mono" rel="stylesheet">
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="index.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
    <header>
@@ -22,7 +22,7 @@
 
     <div class="firstText">
     <h1>Yosemite Park Guide</h1>
-      <h3>Come explore California’s beautiful wilderness.</h3>
+      <p>Come explore California’s beautiful wilderness.</p>
       <p>Always open. Reservations are not available or required to enter the park.</p>
       </div>
 </header>
@@ -50,10 +50,11 @@
     <div id="footerImage">
       <!--"footer_img.png"--> <img src="https://raw.githubusercontent.com/Joe-Bay/web-module-project-intro-css/master/assets/footer_img.jpg" alt="Yosemite National Park Scenery">
     </div>
-      
-        <nav><a href="#">Plan your Visit</a></nav>
-        <nav><a href="#">Learn about the Park</a></nav>
-        <nav><a href="#">Get Involved</a></nav>
+    <nav>
+      <a class="button" id="planButton" href="#">Plan your Visit</a>
+      <a class="button" id="learnButton" href="#">Learn about the Park</a>
+      <a class="button" id="involvedButton" href="#">Get Involved</a>
+    </nav>
       </footer>
 </body>
 </html>
