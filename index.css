@@ -93,8 +93,11 @@ background: #DDB9A3;
 	display:inline-block;
 	width: 50%;
 }
-#footerImage img{
-	display:inline-block;
-	width: 100%;
-	height: 20vh;
+.hero-image {
+	background-image:url('https://raw.githubusercontent.com/Joe-Bay/web-module-project-intro-css/master/assets/footer_img.jpg');
+	height: 25vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
