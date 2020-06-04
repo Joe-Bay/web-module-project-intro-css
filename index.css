@@ -1,0 +1,103 @@
+html{
+	font-size:62.5%;
+}
+body{
+	font-size:1.6rem;
+	font-family: 'Roboto Mono', serif;
+
+}
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+	/*border:1px solid gray;*/
+
+}
+nav a{
+	color:black;
+	margin: 1% 10% 1% 10%;
+	letter-spacing: 3px;
+	text-decoration:none;
+}
+#involedButton{
+	background:#FFCD69;
+}
+#learnButton{
+	background:#5ED3EB;
+}
+#planButton{
+	background:#FF764E;
+}
+.button{
+display:inline-block;
+background-color:maroon;
+padding: 1%;
+color:white;
+border-radius:10px;
+}
+
+#topImageContainer img{
+	display:inline-block;
+	width:20%;
+	border-radius: 50%;
+	margin-left: 8%;
+	margin-top: 5%;
+
+}
+.firstText{
+	width: 45%;
+	padding: 5% 10% 7% 5%;
+
+}
+.firstText h1{
+	font-size: 5rem;
+	width: 100%;
+	font-family: 'Chelsea Market', serif;
+
+}
+.firstText p {
+	font-size: 2rem;
+	padding: 2% 4% 2% 4%;
+	text-align: center;
+}
+
+header div{
+	display:inline-block;
+	padding-bottom: 10%;
+}
+#topImageContainer{
+	margin-right:-40%;
+	padding: 0 5% 0 5%;
+}
+.bodyText {
+font-size: 2rem;
+text-align: center;
+margin: 0 10% 0 10%;
+background: #DDB9A3;
+}
+.imgFireContainer img{
+	display:inline-block;
+	width: 50%;
+	margin-left: -5%;
+}
+.imgFireContainer{
+	padding: 10%;
+}
+.textBelowImages{
+	text-align: center;
+	font-size: 2rem;
+	margin: 0 40% 0 40%;
+}
+#imgTruckContainer img{
+	display:inline-block;
+	width: 50%;
+}
+.hero-image {
+	background-image:url('https://raw.githubusercontent.com/Joe-Bay/web-module-project-intro-css/master/assets/footer_img.jpg');
+	height: 25vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
